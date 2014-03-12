@@ -1,5 +1,9 @@
 <h1> This is the homepage </h1> 
   <body> 
+      <form method='get' action='<%= new_user_registration_path %>'>
+      <button>Sign Up</button>
+      </form>
+
     <%= form_for(@post) do |f| %>
       <%= f.label :title %><br>
       <%= f.text_area :title %><br>
