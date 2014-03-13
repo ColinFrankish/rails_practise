@@ -1,4 +1,4 @@
-<h1> This is the homepage </h1> 
+<h1> Probably the worst post page in HISTORY !!! </h1> 
   <body> 
       <form method='get' action='<%= new_user_registration_path %>'>
       <button>Sign Up</button>
@@ -13,9 +13,12 @@
 
       <%= f.submit "Submit new post!" %>
     <%end%>  
-
-    <% @posts.each do |p| %>
-      <li><%= p.title %></li>
-      <li><%= p.body %></li>
-    <%end%> 
+    <section>
+        <center>
+      <% @posts.each do |p| %>
+        <ul>Title:  <%= p.title %><br>
+            Post:  <%= p.body %></ul>
+        <%end%> 
+        </center>
+    </section>
   </body> 

@@ -1,3 +1,53 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-image: url('notebook.png');
+}
+
+h1 {
+	background-color: #FFCCCC;
+	text-align: center;
+	height: 1em;
+	margin: auto;
+	padding: 0.6em;
+}
+
+button {
+	height: 4em;
+	width: 7em;
+	border-radius: 3em;
+	background-color: #CCFA00;
+	font-weight: bold;
+}
+
+.new_post {
+	float: right;
+	width: 30em;
+	height: 300em;
+}
+
+section {
+	display: box;
+	flex-align: center;
+	font-weight: bold;
+	line-height: 2em;
+	font-size: x-large;
+}
+
+
+
+
+#post_title {
+	width: 35em;
+	font-weight: bold;
+	
+}
+
+#post_body {
+	width: 35em;
+	height: 10em;
+}
+
+
+
